@@ -1,21 +1,30 @@
-body{
+body {
   background-color: #CBCBB2;
   margin: 0;
 }
 
 h1 {
-    text-align: center;
-    font-family: 'Satisfy', cursive;
-    font-size: 35px
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  font-size: 35px
 }
 
 #maioresinfo {
   font-size: 20px;
 }
 
-section{
+.vintepx {
+  font-size: 20px;
+}
+
+section {
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 30px;
+}
+
+ul {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 20px;
 }
 
 .modal button {
@@ -72,6 +81,20 @@ button {
   left: 10px;
   color: white;
   font-size: 24px;
+}
+
+.modal {
+  text-align: center;
+  font-size: 23px;
+  position: fixed;
+  top: 100px;
+  left: 25%;
+  display: none;
+  width: 50%;
+  padding: 2%;
+  border: 1px solid gray;
+  border-radius: 25px;
+  background-color: white;
 }
 
 /*@media(max-width: 600px)define regras para aparelhos com o display menor que 600px*/
