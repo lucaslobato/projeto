@@ -13,6 +13,7 @@ let banners = [
 ];
 
 let bannerAtual = 0;
+let modal = document.querySelector('.modal');
 
 function trocarBanner() {
   // Soma 1 na variável bannerAtual
@@ -32,3 +33,11 @@ function trocarBanner() {
 
 // Coloca um intervalo de tempo ao executar a função repetidamente
 setInterval(trocarBanner, 3000);
+
+function alternarModal() {
+  if (modal.style.display == 'block') {
+    modal.style.display = 'none';
+  } else {
+    modal.style.display = 'block';
+  }
+}

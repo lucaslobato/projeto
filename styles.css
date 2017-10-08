@@ -1,19 +1,37 @@
 body{
-  background-color: #CBCBB2
+  background-color: #CBCBB2;
+  margin: 0;
 }
 
 h1 {
     text-align: center;
     font-family: 'Satisfy', cursive;
-    font-size: 50px
+    font-size: 35px
+}
+
+#maioresinfo {
+  font-size: 20px;
 }
 
 section{
   font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 30px;
 }
 
-footer{
-  font-family: 'Pathway Gothic One', sans-serif;
+.modal button {
+  background-color: black;
+}
+
+input {
+  height: 29px;
+}
+
+button {
+  font-size: 16px;
+  padding: 7px 25px;
+  color: white;
+  border: 0;
+  border-radius: 5px;
 }
 
 .banner {

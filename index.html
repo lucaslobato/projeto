@@ -14,7 +14,6 @@
 <body>
 
   <h1>Japaratinga</h1>
-  </div>
   <section class="banner">
     <img src="images/banner1.jpg" alt="Banner da Lontra">
 
@@ -28,12 +27,29 @@
   </section>
   <section>
     <p>Localização</p>
+Distâncias<br>
+<div id="maioresinfo">
+<ul>
+<li>Maceió: 115 km - acesso pela AL-101 Norte</li>
+<li>Recife: 140 km - acesso pela BR-101 Sul, PE-060 e AL-101 Norte</li>
+</ul>
+</div>
   </section>
   <section>
     <p>Maiores Informações</p>
+    <form method="post">
+      <input type="text" placeholder="E-mail">
+      <button type="button" onclick="alternarModal()">Enviar</button>
+    </form>
   </section>
-  <footer>Footer</footer>
-
+  <section>
+  <p>  Footer</p>
+  </section>
+  <div class="modal">
+    <p>Obrigado por enviar seu E-mail.</p>
+    <p>Enviaremos maiores informações sobre Japaratinga :)</p>
+    <button onclick="alternarModal()">OK</button>
+  </div>
   <script type="text/javascript" src="scripts.js"></script>
 
 </body>
