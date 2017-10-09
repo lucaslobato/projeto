@@ -6,8 +6,17 @@ body {
 h1 {
   text-align: center;
   font-family: 'Satisfy', cursive;
-  font-size: 35px
+  font-size: 35px;
 }
+
+/*#h1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    color: black;
+    font-size: 35px;
+}*/
 
 #maioresinfo {
   font-size: 20px;
@@ -17,7 +26,7 @@ h1 {
   font-size: 20px;
 }
 
-section {
+section p {
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 30px;
 }
@@ -29,6 +38,7 @@ ul {
 
 .modal button {
   background-color: black;
+  color: white;
 }
 
 input {
@@ -36,13 +46,13 @@ input {
 }
 
 button {
-  font-size: 16px;
+  font-size: 18px;
   padding: 7px 25px;
-  color: white;
+  color: black;
   border: 0;
-  border-radius: 5px;
+  border-radius: 60px;
 }
-
+/*
 .banner {
   position: relative;
 }
@@ -82,18 +92,18 @@ button {
   color: white;
   font-size: 24px;
 }
-
+*/
 .modal {
   text-align: center;
-  font-size: 23px;
+  font-size: 20px;
   position: fixed;
-  top: 100px;
+  top: 50px;
   left: 25%;
   display: none;
   width: 50%;
   padding: 2%;
   border: 1px solid gray;
-  border-radius: 25px;
+  border-radius: 50px;
   background-color: white;
 }
 
